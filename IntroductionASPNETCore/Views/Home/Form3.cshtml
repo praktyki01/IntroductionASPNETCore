@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Form3";
+}
+
+<h1>Form3</h1>
+
+<form method="post" action="/home/form3/">
+    <input type="text" name="email" value="Wpisz e-mail" />
+    <input type="password" name="password" value="Wpisz hasło" />
+    <input type="submit" value="Zaloguj się" class="btn btn-primary" />
+</form>
+
+@ViewBag.zalogowany

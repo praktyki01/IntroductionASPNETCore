@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "Form4";
+}
+
+<h1>Form4</h1>
+
+<form method="post" action="/home/form4/">
+    <input type="text" name="imie" value="Imię" />
+    <input type="text" name="nazwisko" value="Nazwisko" />
+    <input type="text" name="klasa" value="Klasa" />
+    <input type="text" name="szkola" value="Szkoła" />
+    <input type="text" name="rok" value="Rok Urodzenia" />
+    <input type="submit" value="Wyślij dane" class="btn btn-primary" />
+</form>
+
+@ViewBag.dane
+

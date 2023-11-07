@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "PoryRokuJezyki";
+}
+
+<h1>Pory Roku Jezyki</h1>
+
+<a href="/home/PoryRokuJezyki?jezyk=polski" class="btn btn-primary">PL</a>
+<a href="/home/PoryRokuJezyki?jezyk=angielski" class="btn btn-primary">EN</a>
+<a href="/home/PoryRokuJezyki?jezyk=niemiecki" class="btn btn-primary">DE</a>
+
+<ol>
+    @foreach (var i in ViewBag.poryroku)
+    {
+        <li>@i</li>
+    }
+</ol>
